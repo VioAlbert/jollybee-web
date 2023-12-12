@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  line-height: 1.5em;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  min-width: 360px;
+  background-color: #434343;
+}
