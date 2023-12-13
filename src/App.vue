@@ -9,15 +9,15 @@
   const pages = [
     {
       name: 'About',
-      component: AboutPage
+      component: AboutPage,
     },
     {
       name: 'Learn',
-      component: LearnPage
+      component: LearnPage,
     },
     {
       name: 'Register',
-      component: RegisterPage
+      component: RegisterPage,
     },
   ]
 
@@ -29,12 +29,16 @@
   })
 
   const activePageIndex = ref(0)
+
+  const changePage = (x) => {
+    activePageIndex.value = x
+  }
 </script>
 
 <template>
   <div class="container max-w-xl mx-auto">
     <img src="/images/logo_hexagon.svg" alt="" class="mx-auto my-3 h-10 block">
-    <HeaderBar :pages="pageItems" @change-page="(x) => activePageIndex = x" />
+    <HeaderBar :pages="pageItems" :activePageIndex="activePageIndex" @change-page="changePage" />
     <div class="border border-white p-10 h-[80vh]">
       <component :is="pageComponent[activePageIndex]" />
     </div>
