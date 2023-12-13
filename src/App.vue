@@ -35,7 +35,7 @@
   <div class="container max-w-xl mx-auto">
     <img src="/images/logo_hexagon.svg" alt="" class="mx-auto my-3 h-10 block">
     <HeaderBar :pages="pageItems" @change-page="(x) => activePageIndex = x" />
-    <div class="border border-white">
+    <div class="border border-white p-10 h-[80vh]">
       <component :is="pageComponent[activePageIndex]" />
     </div>
     <FooterBar />
