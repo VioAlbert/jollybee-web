@@ -30,7 +30,7 @@
 
   const activePageIndex = ref(0)
 
-  const changePage = (x) => {
+  const changePage = (x : number) => {
     activePageIndex.value = x
   }
 </script>
