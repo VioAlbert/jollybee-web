@@ -9,3 +9,26 @@ body {
   background-color: #434343;
   color: lightgrey;
 }
+
+h1 {
+  font-weight: bold;
+  font-size: 2em;
+  font-style: italic;
+  color: white;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 1.2em;
+  font-style: italic;
+  color: white;
+}
+
+a {
+  color: orange;
+}
+
+ul {
+  list-style: circle;
+  list-style-position: inside;
+}
