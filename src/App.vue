@@ -40,7 +40,7 @@
     <img src="/images/logo_hexagon.svg" alt="" class="mx-auto my-3 h-10 block">
     <HeaderBar :pages="pageItems" :activePageIndex="activePageIndex" @change-page="changePage" />
     <div class="border border-white p-10 h-[80vh] scrollable">
-      <component :is="pageComponent[activePageIndex]" />
+      <component :is="pageComponent[activePageIndex]" @change-page="changePage" />
     </div>
     <FooterBar />
   </div>

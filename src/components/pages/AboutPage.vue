@@ -62,7 +62,7 @@
     <center class="space-y-5">
       <p style="color:orange">&#x25BC;&#x25BC;&#x25BC;</p>
       <p>What are you waiting for?</p>
-      <button class="register-btn">Register</button>
+      <button class="register-btn" @click="$emit('changePage', 2)">Register</button>
     </center>
   </section>
 </template>
