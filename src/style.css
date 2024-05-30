@@ -32,3 +32,10 @@ ul {
   list-style: circle;
   list-style-position: inside;
 }
+
+.register-btn {
+  background-color: orange;
+  color: white;
+  padding: 1.2em 3em;
+  font-weight: bold;
+}

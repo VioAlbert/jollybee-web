@@ -15,6 +15,10 @@
     <p>
     Jollybee has won numerous national and international competitions, and has represented Indonesia in the ICPC World Finals serveral times.
     </p>
+    <br>
+    <p>
+    Please visit our <a href="http://instagram.com/binusjollybee">Instagram</a> or <a href="https://www.linkedin.com/company/jollybee-binus/">Linkedin</a> to view our latest achievements.
+    </p>
   </section>
 
   <section class="pb-10">
@@ -43,7 +47,7 @@
     </ul>
   </section>
 
-  <section>
+  <section class="pb-10">
     <h1>Our Alumni</h1>
     <p>
     Competitive Programming has shaped the mindset of our members, refining them into the best version of themselves. Due to their own efforts, some of the companies of our recent alumni are Shopee, Google, Amazon, Meta, Grab, Tiket.com, Traveloka, Tokopedia, Sirclo, and others.
@@ -52,5 +56,13 @@
     <p>
     Some of our alumni also choose to thrive in education and research as a coach, a lecturer, or a researcher in educational institutes such as the National University of Singapore, University of Tsukuba, and Binus University.
     </p>
+  </section>
+
+  <section class="pb-10">
+    <center class="space-y-5">
+      <p style="color:orange">&#x25BC;&#x25BC;&#x25BC;</p>
+      <p>What are you waiting for?</p>
+      <button class="register-btn">Register</button>
+    </center>
   </section>
 </template>
