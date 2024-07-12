@@ -2,7 +2,7 @@
   <section class="pb-10">
     <h1>CP</h1>
     <p>
-    Competitive Programming, or CP in short, is a mind sport in which contestants are given a set of programming problems to be solved within a preset amount of time. Competitions are supported by various companies such as <a href="#">Huawei</a>, <a href="#">Google</a>, <a href="#">Facebook</a>, <a href="#">Shopee</a>, <a href="#">Agoda</a>, <a href="#">Acer</a>, <a href="#">Telegram</a>, <a href="#">Traveloka</a>, <a href="#">Sirclo</a>, and others.
+    Competitive Programming, or CP in short, is a mind sport in which contestants are given a set of programming problems to be solved within a preset amount of time. Competitions are supported by various companies such as <a href="https://www.huawei.com/minisite/icpc2022/en/">Huawei</a>, <a href="https://codingcompetitionsonair.withgoogle.com/">Google</a>, <a href="https://www.facebook.com/codingcompetitions/hacker-cup">Facebook</a>, <a href="https://careers.shopee.sg/codeleague/">Shopee</a>, <a href="https://codegoda.io/">Agoda</a>, <a href="https://news.acer.com/acer-sponsors-the-international-olympiad-in-informatics-2022">Acer</a>, <a href="https://codeforces.com/blog/entry/13417">Telegram</a>, <a href="https://competition.binus.ac.id/icpc2018/">Traveloka</a>, <a href="http://ngoding-seru.jonathanirvin.gs/">Sirclo</a>, and others.
     </p>
   </section>
 
