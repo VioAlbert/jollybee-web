@@ -33,9 +33,18 @@ ul {
   list-style-position: inside;
 }
 
+.span-link {
+  color: orange;
+  cursor: pointer;
+}
+
 .register-btn {
   background-color: orange;
   color: white;
   padding: 1.2em 3em;
   font-weight: bold;
+}
+
+.highlight-box {
+  border: 1px orange solid;
 }
