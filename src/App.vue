@@ -48,6 +48,19 @@
 
 <style scoped>
 .scrollable {
-  overflow: scroll;
+  overflow: auto;
+  scrollbar-color: #7d7d7d;
+}
+
+.scrollable::-webkit-scrollbar{
+  width: var(--pseudo-sb-w);
+}
+
+.scrollable::-webkit-scrollbar-track{
+  background-color: #7d7d7d;
+}
+
+.scrollable::-webkit-scrollbar-thumb{
+  background: white;
 }
 </style>
