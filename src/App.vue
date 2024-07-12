@@ -48,7 +48,6 @@
 
 <style scoped>
 .scrollable {
-  overflow-block: scroll;
-  overflow-anchor: auto;
+  overflow: scroll;
 }
 </style>
