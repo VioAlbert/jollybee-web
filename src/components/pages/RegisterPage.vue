@@ -50,7 +50,7 @@
     },
   ]
 
-  const parseDate = (date, config) => {
+  const parseDate = (date : Date | null, config : Object) => {
     if(date == null) return "TBA"
     else return date.toLocaleDateString('en-US', config)
   }
